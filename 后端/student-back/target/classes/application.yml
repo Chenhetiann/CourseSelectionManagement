@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///studentmanager
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: stu.back.org.query,stu.back.org.domain
